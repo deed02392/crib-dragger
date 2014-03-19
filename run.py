@@ -7,6 +7,7 @@ asciionly = lambda str: str.translate(''.join([['.', chr(x)][chr(x) in string.pr
 key  = "8J1Cxg0GBHbjhQFv7R9OllOK2JPIhzvgX6kvN2UcA"
 msg1 = "What would you do if you were not afraid?"
 msg2 = "The start is what often stops most people"
+
 guess = "people"
 
 if not len(key) == len(msg1) == len(msg2):
